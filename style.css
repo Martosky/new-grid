@@ -1,7 +1,11 @@
-*,
-*::before,
-*::after{
+*{
     margin: 0;
     padding:0;
     box-sizing: border-box;
+}
+main{
+    margin: 0;
+    background-color: gainsboro;
+    display: grid;
+    grid-template: repeat(3, 1fr, 2fr, 1fr)/ repeat(2, 1fr, 2fr);
 }
