@@ -7,5 +7,19 @@ main{
     margin: 0;
     background-color: gainsboro;
     display: grid;
-    grid-template: repeat(3, 1fr, 2fr, 1fr)/ repeat(2, 1fr, 2fr);
+    grid-template:  1fr 2fr 1fr/  1fr 2fr 1fr;
+}
+.content{
+    border: 1px solid black;
+}
+#header{
+    grid-column: 2/4;
+
+}
+#sidebar{
+   grid-row: 1/4 ;
+}
+#body{
+    grid-column: 2/4;
+    grid-row: 2/4;
 }
