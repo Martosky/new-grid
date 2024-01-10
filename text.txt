@@ -3,3 +3,4 @@ hopefully this will eneble me become good
 working on the sidebar and the icons
 dont working on the sidebar
 moving to the header content
+done with the first part of the header

@@ -12,9 +12,54 @@ main{
 
 #header{
     grid-column: 2/4;
-    background-color: grey;
-
+    background-color: rgb(238, 229, 229);
+    overflow: hidden;
+    display: grid;
+    grid-template: 50px 50px/  1fr 1fr;
 }
+.first-elem{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    gap: 15px;
+    margin-left: 20px;
+}
+.first-elem > input{
+    width: 500px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+    margin-top: 1rem;
+    background-color: rgb(180, 178, 178);
+}
+.fa-solid{
+    margin-top: 1rem;
+    height: 15px;
+    
+}
+.second-elem{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    border: 1px solid black;
+    padding-right: 40px;
+}
+.second-elem > h3{
+    padding-top: 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.second-elem .img-bell{
+    margin-top: 1rem;
+}
+.catphoto{
+    border-radius: 50%;
+}
+
 #sidebar{
    grid-row: 1/4 ;
    background-color: #0ea5e9;
