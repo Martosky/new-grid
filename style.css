@@ -7,20 +7,21 @@ main{
     margin: 0;
     background-color: gainsboro;
     display: grid;
-    grid-template:  100px 2fr 1fr/  200px 2fr 1fr;
+    grid-template:  145px 2fr 1fr/  200px 2fr 1fr;
 }
 
 #header{
     grid-column: 2/4;
-    background-color: rgb(238, 229, 229);
+    background-color: white;
+    box-shadow: 0 4px 2px -2px gray;
     overflow: hidden;
     display: grid;
-    grid-template: 50px 50px/  1fr 1fr;
+    grid-template: 60px 60px/  1fr 1fr;
+    padding: 10px;
 }
 .first-elem{
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     gap: 15px;
     margin-left: 20px;
 }
@@ -44,7 +45,6 @@ main{
     flex-direction: row;
     justify-content: flex-end;
     gap: 20px;
-    border: 1px solid black;
     padding-right: 40px;
 }
 .second-elem > h3{
@@ -54,6 +54,36 @@ main{
     font-family: Arial, Helvetica, sans-serif;
 }
 .second-elem .img-bell{
+    margin-top: 1rem;
+}
+.third-elem{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 20px;
+}
+.third-elem > h3{
+    padding-top: 1rem;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.fourt-elem{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 40px;
+}
+button{
+    height: 30px;
+    background-color: #0ea5e9;
+    color: white;
+    padding: 8px;
+    width: 80px;
+    border: none;
+    border-radius: 20px;
     margin-top: 1rem;
 }
 .catphoto{

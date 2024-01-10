@@ -4,3 +4,5 @@ working on the sidebar and the icons
 dont working on the sidebar
 moving to the header content
 done with the first part of the header
+Just completed the styling for the header.
+about to move on to the body
