@@ -5,4 +5,5 @@ dont working on the sidebar
 moving to the header content
 done with the first part of the header
 Just completed the styling for the header.
-about to move on to the body
+about to move on to the body,
+filling up my body element usign grid.
