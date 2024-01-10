@@ -18,6 +18,7 @@ main{
 }
 #sidebar{
    grid-row: 1/4 ;
+   background-color: #22d3ee;
 }
 #body{
     grid-column: 2/4;

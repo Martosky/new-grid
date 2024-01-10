@@ -1,2 +1,3 @@
 grid project
 hopefully this will eneble me become good
+working on the sidebar and the icons
