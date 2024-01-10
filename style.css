@@ -7,19 +7,54 @@ main{
     margin: 0;
     background-color: gainsboro;
     display: grid;
-    grid-template:  1fr 2fr 1fr/  1fr 2fr 1fr;
+    grid-template:  100px 2fr 1fr/  200px 2fr 1fr;
 }
-.content{
-    border: 1px solid black;
-}
+
 #header{
     grid-column: 2/4;
+    background-color: grey;
 
 }
 #sidebar{
    grid-row: 1/4 ;
-   background-color: #22d3ee;
+   background-color: #0ea5e9;
+   padding: 30px 0 20px 30px;
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 20px;
 }
+ .sidebar-hearder{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+}
+.sidebar-hearder .h2{
+    color: white;
+    padding-top: 3px;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.sidebar-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.side-elem{
+    color: white;
+    font: 15px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.img-style{
+    padding-top: 3px;
+}
+
+
 #body{
     grid-column: 2/4;
     grid-row: 2/4;

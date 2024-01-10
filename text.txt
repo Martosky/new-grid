@@ -1,3 +1,5 @@
 grid project
 hopefully this will eneble me become good
 working on the sidebar and the icons
+dont working on the sidebar
+moving to the header content
