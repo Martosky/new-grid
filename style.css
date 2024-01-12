@@ -7,7 +7,7 @@ main{
     margin: 0;
     background-color: gainsboro;
     display: grid;
-    grid-template:  145px 2fr 1fr/  200px 2fr 1fr;
+    grid-template:  145px 2fr 1fr/  200px 2fr 200px;
 }
 
 #header{
@@ -90,7 +90,7 @@ button{
     border-radius: 50%;
 }
 
-#sidebar{
+#left-sidebar{
    grid-row: 1/4 ;
    background-color: #0ea5e9;
    padding: 30px 0 20px 30px;
@@ -131,8 +131,60 @@ button{
 
 
 #body{
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 2/4;
     display: grid;
-    grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr ;
+    gap: 15px;
+    padding: 20px;
+}
+#el-1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: 1px solid black
+}
+#el-2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border: 1px solid black;
+}
+#el-3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    border: 1px solid black;
+}
+#el-4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: 1px solid black;
+}
+#el-5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 1px solid black;
+}
+#el-6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    border: 1px solid black;
+}
+#el-7{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border: 1px solid black;
+}
+#el-8{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border: 1px solid black;
+}
+#el-9{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    border: 1px solid black;
+}
+#right-side{
+    grid-column: 3/4;
+    grid-row: 2/4;
+    background-color: blueviolet;
 }
