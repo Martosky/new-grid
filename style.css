@@ -180,6 +180,17 @@ button{
     background-color: white;
     box-shadow: 2px 5px 6px 0px;
 }
+.brd-prop:hover{
+    outline: 2px solid rgb(190, 189, 189);
+    transform: translate(1px,3px);
+}
+.icon-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 15px;
+    padding: 5px;
+}
 #right-side{
     grid-column: 3/4;
     grid-row: 2/4;
