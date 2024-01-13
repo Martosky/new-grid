@@ -9,3 +9,5 @@ about to move on to the body,
 filling up my body element usign grid.
 wip.
 Been fixing the page using grid
+just added picture to my app.
+rounding up the app
