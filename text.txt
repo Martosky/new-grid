@@ -12,4 +12,5 @@ Been fixing the page using grid
 just added picture to my app.
 rounding up the app
 found a bug and fixed it perfectly.
-aded all icons
+aded all icons.
+Just completed my project.
