@@ -15,9 +15,13 @@ main{
     background-color: white;
     box-shadow: 0 4px 2px -2px gray;
     overflow: hidden;
+    position: relative;
     display: grid;
     grid-template: 60px 60px/  1fr 1fr;
     padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 .first-elem{
     display: flex;
@@ -29,6 +33,7 @@ main{
     width: 500px;
     height: 25px;
     border-radius: 20px;
+    font-size: 16px;
     border: none;
     outline: none;
     padding-left: 30px;
@@ -36,8 +41,10 @@ main{
     background-color: rgb(180, 178, 178);
 }
 .fa-solid{
-    margin-top: 1rem;
+    margin-top: 1.3rem;
+    margin-left: 10px;
     height: 15px;
+    position: absolute;
     
 }
 .second-elem{
@@ -86,8 +93,20 @@ button{
     border-radius: 20px;
     margin-top: 1rem;
 }
+button:hover{
+    color: black;
+    background-color: white;
+    box-shadow:  2px 5px 6px 0px;
+    cursor: pointer;
+}
 .catphoto{
     border-radius: 50%;
+}
+.catphoto:hover{
+    transform: rotate(200deg);
+    transition: transform 2s;
+    cursor: pointer;
+    border: 1px solid silver;
 }
 
 #left-sidebar{
@@ -115,6 +134,7 @@ button{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: -350px;
 }
 .side-elem{
     color: white;
@@ -124,6 +144,12 @@ button{
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+.side-elem:hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+    transform: translate(5px, -4px);
 }
 .img-style{
     margin-top: 3px;
@@ -191,8 +217,30 @@ button{
     gap: 15px;
     padding: 5px;
 }
+.icon-body>img:hover{
+    background-color: #8a8b8b;
+    border-radius: 50%;
+}
 #right-side{
     grid-column: 3/4;
     grid-row: 2/4;
-    background-color: blueviolet;
+    
+    display: grid;
+    grid-template-rows: 30px 1fr 30px 1fr;
+}
+#page-1{
+    grid-row: 1/2 ;
+
+}
+#page-2{
+    grid-row: 2/3;
+    background-color: white;
+}
+#page-3{
+    grid-row: 3/4;
+    
+}
+#page-4{
+    grid-row: 4/5;
+    background-color: white;
 }
