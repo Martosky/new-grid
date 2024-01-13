@@ -4,3 +4,4 @@ cascading the page to look exactly like the original
 Next is to style the body of my form.
 more added.
 fixung bugs
+fixed bugs.
