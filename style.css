@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 main{
+    position: relative;
     margin: 0;
     background-color: gainsboro;
     display: grid;
@@ -45,6 +46,7 @@ main{
     margin-left: 10px;
     height: 15px;
     position: absolute;
+    z-index: 99;
     
 }
 .second-elem{
@@ -251,4 +253,18 @@ button:hover{
     padding: 8px;
     border-radius: 10px;
     margin: 10px;
+}
+.top-btn{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
 }
